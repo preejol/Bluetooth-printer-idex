@@ -1,4 +1,4 @@
-package com.ru.cordova.printer.bluetooth;
+package com.idex.bluetooth.printer;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

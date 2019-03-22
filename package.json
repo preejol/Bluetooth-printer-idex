@@ -1,43 +1,36 @@
 {
-  "name": "cordova-plugin-Btpnetonline",
+  "name": "cordova-plugin-bluetooth-printer-idex",
   "version": "4.0.3-dev",
-  "description": "Cordova Camera Plugin",
+  "description": "A Cordova plugin to print through bluetooth thermal printer",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-Btpnetonline",
+    "id": "cordova-plugin-bluetooth-printer-idex",
     "platforms": [
       "android",
       "ios",
       "browser",
-      "windows",
       "osx"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lansas/cordova-plugin-Btpnetonline"
+    "url": "https://github.com/preejol/Bluetooth-printer-idex"
   },
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": "https://github.com/preejol/Bluetooth-printer-idex"
   },
   "keywords": [
     "cordova",
-    "Btpnetonline",
-    "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
     "cordova-browser",
-    "cordova-windows",
-    "cordova-osx"
+    "cordova-osx",
+    "Bluetooth thermal printer"
   ],
   "scripts": {
-    "precommit": "npm run gen-docs && git add README.md",
-    "gen-docs": "jsdoc2md --template \"jsdoc2md/TEMPLATE.md\" \"www/**/*.js\" --plugin \"dmd-plugin-cordova-plugin\" > README.md",
-    "test": "npm run eslint",
-    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
   },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
+  "author": "Preeti Jolapra",
+  "license": "",
   "engines": {
 
   },
